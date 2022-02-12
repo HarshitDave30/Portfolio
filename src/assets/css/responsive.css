@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1440px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .navbar-dark .navbar-toggler {border-color: transparent;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .navigationbar .navbar-expand-lg .navbar-nav .nav-link {padding-left: 0px;}
+    .hero-banner h1 {font-size: 46px;}
+    .hero-banner {padding: 50px 0px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+    .navigationbar .bg-blue {padding-top: 15px; padding-bottom: 15px;}
+    .hero-banner h1 {font-size: 48px; margin-bottom: 20px;}
+    .hero-banner img {margin-top: 30px;}
+    .about {background-image: none;}
+    footer h4 {margin-bottom: 20px;}
+    .footer-copyright p {font-size: 14px;}
+}
+
+@media only screen and (max-width: 375px) {}
